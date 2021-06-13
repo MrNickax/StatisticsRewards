@@ -1,0 +1,80 @@
+# StatisticsRewards ${project.version} Main Config File.
+# Statistics: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html
+# Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# Materials: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+language: en
+available_languages:
+  - en
+  - es
+
+data-auto-save: true
+data-save-delay: 12000
+# 1200 ticks = 1 minute.
+
+rewards:
+  example_reward:
+    statistic: MINE_BLOCK
+    material: STONE
+    amount: 100
+    play-sound:
+      sound: ENTITY_PLAYER_LEVELUP
+      pitch: 1
+    messages:
+      - '&8--------- &6&lStatisticsRewards &8--------'
+      - '&7'
+      - ' &8» &9%amount% &7Mined &3%material% &7Reward!'
+      - '&7'
+      - ' &7Rewards:'
+      - ' &8- &6300 Coins'
+      - ' &8- &d150 EXP'
+      - '&8------------------------------------'
+    commands:
+      console-commands:
+        - eco give %player% 300
+        - xp give %player% 150
+      player-commands:
+        - fly
+  example_reward_2:
+    statistic: KILL_ENTITY
+    entity: ZOMBIE
+    amount: 50
+    play-sound:
+      sound: ENTITY_PLAYER_LEVELUP
+      pitch: 1
+    messages:
+      - '&8--------- &6&lStatisticsRewards &8--------'
+      - '&7'
+      - ' &8» &9%amount% &7Killed &3%entity% &7Reward!'
+      - '&7'
+      - ' &7Rewards:'
+      - ' &8- &6300 Coins'
+      - ' &8- &d150 EXP'
+      - '&8------------------------------------'
+    commands:
+      console-commands:
+        - eco give %player% 300
+        - xp give %player% 150
+      player-commands:
+        - fly
+  example_reward_3:
+    statistic: CHEST_OPENED
+    amount: 50
+    play-sound:
+      sound: ENTITY_PLAYER_LEVELUP
+      pitch: 1
+    messages:
+      - '&8--------- &6&lStatisticsRewards &8--------'
+      - '&7'
+      - ' &8» &9%amount% &7Opened Chests Reward!'
+      - '&7'
+      - ' &7Rewards:'
+      - ' &8- &6300 Coins'
+      - ' &8- &d150 EXP'
+      - '&8------------------------------------'
+    commands:
+      console-commands:
+        - eco give %player% 300
+        - xp give %player% 150
+      player-commands:
+        - fly
