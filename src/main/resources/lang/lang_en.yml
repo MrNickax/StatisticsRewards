@@ -1,0 +1,25 @@
+# StatisticsRewards ${project.version} by Nickax
+# Wiki: https://github.com/MrNickax/StatisticsRewards/wiki
+
+general:
+  reload: '&6&l«!» &7Configuration files reloaded successfully!'
+  unknown-command: '&c&l«!» &7Unknown command!'
+  no-permission: '&c&l«!» &7You don''t have enough permissions!'
+  usage: '&6&lUsage: &7/%usage%!'
+  not-valid-player: '&c&l«!» &7Player &e%player% &7not found!'
+  not-valid-statistic: '&c&l«!» &7Statistic &e%statistic% &7not found!'
+  not-valid-material: '&c&l«!» &7Material &e%material% &7not found!'
+  not-valid-entity: '&c&l«!» &7Entity &e%entity% &7not found!'
+  not-valid-number: '&c&l«!» &7The amount &e%number% &7is not valid!'
+  statistic-add: '&6&l«!» &e%player% &3%statistic% (%material/entity%) &7is now &a%amount%!'
+  statistic-add-untyped: '&6&l«!» &e%player% &3%statistic% &7is now &a%amount%!'
+  statistic-set: '&6&l«!» &e%player% &3%statistic% (%material/entity%) &7is now &a%amount%!'
+  statistic-set-untyped: '&6&l«!» &e%player% &3%statistic% &7is now &a%amount%!'
+  statistic-get: '&6&l«!» &e%player% &3%statistic% (%material/entity%) &7is &a%amount%!'
+  statistic-get-untyped: '&6&l«!» &e%player% &3%statistic% &7is &a%amount%!'
+  reward-not-configured: '&c&l«!» &7There are not configured rewards!'
+  reward-not-found: '&c&l«!» &7Reward not found!'
+  reward-already-collected: '&c&l«!» &e%player% &3%reward% &7is already collected!'
+  reward-not-collected: '&c&l«!» &e%player% &3%reward% &7is not collected!'
+  reward-set-collected: '&6&l«!» &e%player% &3%reward% &7is now collected!'
+  reward-set-uncollected: '&6&l«!» &e%player% &3%reward% &7is now not collected!'

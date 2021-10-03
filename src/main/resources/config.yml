@@ -1,0 +1,22 @@
+# StatisticsRewards ${project.version} by Nickax
+# Wiki: https://github.com/MrNickax/StatisticsRewards/wiki
+
+general:
+  check-for-updates: true
+
+language:
+  detect-client-language: true
+  default-language: en
+
+data:
+  auto-save: false
+  save-delay: 15 # In minutes
+
+mysql:
+  enabled: false # Requires Restart
+  host: 127.0.0.1
+  port: 3306
+  username: username
+  password: password
+  database: statisticsrewards
+  ssl: false

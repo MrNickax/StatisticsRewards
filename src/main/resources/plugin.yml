@@ -1,0 +1,9 @@
+name: StatisticsRewards
+version: '${project.version}'
+main: me.nickax.statisticsrewards.StatisticsRewards
+api-version: 1.13
+author: Nickax
+softdepend: [PlaceholderAPI]
+commands:
+  statisticsrewards:
+    aliases: [sr]
